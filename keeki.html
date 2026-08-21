@@ -5,9 +5,9 @@
     <meta name="description" content="AluminiumWeb for aluminium voicebank">
     <title>AluminiumWeb - Keeki</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script> 
     <link rel="icon" type="image/x-icon" href="media/favicon.ico">
 </head> 
-
 <body>
 <header>
     <h1>AluminiumWeb</h1>
@@ -23,9 +23,14 @@
 <main>
     <br>
     <a href="voicebanktos.html">terms of usage</a>
-    <a href="voicebankcredits.html">credits</a> <br>
+    <a href="voicebankcredits.html">credits</a>
+    <br>
+    <br>
+    <a href="#utau" onclick="showPage('utau')">utau</a>
+    <a href="#deepvocal" onclick="showPage('deepvocal')">deepvocal</a>
+    <a href="#rvc" onclick="showPage('rvc')">rvc</a>
     <h1>Keeki</h1>
-    <h2>CakeOfAluminium, アルミニウムケーキ, ケーキ</h2>
+    <h2>CakeOfAluminium, アルミニウムケーキ, ケーキ, 蛋糕</h2>
     <div class="row">
         <div class="column">
             <div class="first">
@@ -33,66 +38,70 @@
                 <p><br>illustration by<a href="https://t.me/vzroslie_zapretbl"><br>х?дожник х!ев</a></p>
             </div>
         </div>
-        <div class="column">
-            <div class="second">
-                <h2>information</h2>
-                <p>pronouns - he/they</p>
-                <p>height - 171</p>
-                <p>weight - he doesn't remember</p>
-                <p>age - ???</p>
-                <p>birthday - may 20th</p>
-                <p>gender - male</p>
-                <p>likes - red color, rhythm games, waste time</p>
-                <p>dislikes - books, to read a lot</p>
-                <p>item - mint candy</p>
-            </div>
-        </div>
-    </div>
-    <h1>voicebanks</h1>
-    <hr>
-    <h1>utau</h1>
-    <p>utau illustration by<a href="https://x.com/morimori_1411">morimori_1411</a></p>
-    <h2>japanese (preferred)</h2>
-    <div class="row">
-        <div class="column">
-            <div class="first">
-                <h2>cv</h2>
-                <a href="https://bowlroll.net/file/355103">normal</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="second">
-                <img src="media/keekialt.webp" alt="kezaru" width="100%">
+            <div class="column">
+                <div class="second">
+                    <h2>information</h2>
+                    <p>pronouns - he/they</p>
+                    <p>height - 171</p>
+                    <p>weight - he doesn't remember</p>
+                    <p>age - ???</p>
+                    <p>birthday - may 20th</p>
+                    <p>gender - male</p>
+                    <p>likes - red color, rhythm games, waste time</p>
+                    <p>dislikes - books, to read a lot</p>
+                    <p>item - mint candy</p>
+                </div>
             </div>
         </div>
     </div>
     <hr>
-    <h1>rvc</h1>
-    <h3>rvc-ai illustration by<a href="https://t.me/vzroslie_zapretbl">х?дожник х!ев</a></h3>
-    <h2>multilangual</h2>
-    <div class="row">
-        <div class="column">
-            <div class="first">
-                <img src="media/keekifullbody.webp" alt="kezaru" width="100%">
+    <div id="utau" class="page active">
+        <h1>utau</h1>
+        <p>utau illustration by<a href="https://x.com/morimori_1411">morimori_1411</a></p>
+        <h2>japanese (preferred)</h2>
+        <div class="row">
+            <div class="column">
+                <div class="first">
+                    <h2>cv</h2>
+                    <a href="https://bowlroll.net/file/355103">normal</a>
+                </div>
+            </div>
+                <div class="column">
+                    <div class="second">
+                    <img src="media/keekialt.webp" alt="kezaru" width="100%">
+                </div>
+             </div>
+        </div>
+    </div>
+    <div id="rvc" class="page">
+        <h1>rvc</h1>
+        <h3>rvc-ai illustration by<a href="https://t.me/vzroslie_zapretbl">х?дожник х!ев</a></h3>
+        <h2>multilangual</h2>
+        <div class="row">
+            <div class="column">
+                <div class="first">
+                    <img src="media/keekifullbody.webp" alt="kezaru" width="100%">
+                </div>
+            </div>
+             <div class="column">
+                <div class="second">
+                    <a href="https://www.mediafire.com/file/zqq9fhp068enive/AluminiumCakeRVC.zip/file">normal</a>
+                </div>
             </div>
         </div>
-        <div class="column">
-            <div class="second">
-                <a href="https://www.mediafire.com/file/zqq9fhp068enive/AluminiumCakeRVC.zip/file">normal</a>
+    </div>
+    <div id="deepvocal" class="page">
+        <h1>deepvocal</h1>
+        <h3>deepvocal illustrations by<a href="https://x.com/AluminiumCake">c4ke</a></h2>
+        <div class="row">
+            <div class="column">
+                <div class="first">
+                    <h2>japanese</h2>
+                    <a href="https://www.mediafire.com/file/oo0m2lu8ulp5yo2/c4_keeki_v1.zip/file">normal</a>
+                    <h2>korean (in development)</h2>
+                    <a href="">normal</a>
+                </div>
             </div>
-        </div>
-    <hr>
-    <h1>deepvocal</h1>
-    <h3>deepvocal illustrations by<a href="https://x.com/AluminiumCake">c4ke</a></h2>
-    <div class="row">
-        <div class="column">
-            <div class="first">
-                <h2>japanese</h2>
-                <a href="https://www.mediafire.com/file/oo0m2lu8ulp5yo2/c4_keeki_v1.zip/file">normal</a>
-                <h2>korean (in development)</h2>
-                <a href="">normal</a>
-            </div>
-        </div>
         <div class="column">
             <div class="second">
                 <img src="media/keekideepvocal.webp" alt="kezaru" width="100%">
