@@ -113,3 +113,10 @@ h1 {
   display: table;
   clear: both;
 }
+
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+}
